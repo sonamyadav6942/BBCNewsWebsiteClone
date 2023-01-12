@@ -1,7 +1,10 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 #topbar {
     width: 1000px;
     margin: 0 auto;
-    height: 40px;
+    height: 45px;
+    
 }
 
 body {
@@ -26,18 +29,18 @@ body {
 }
 
 #signinimage {
-    height: 20px;
-    width: 30px;
-    margin: 15px 15px;
+
+    margin: 7px;
     float: left;
+    padding-left: 15px;
 }
 
 #signin-text {
     font-weight: bold;
-    font-size: 90%;
+    font-size: 95%;
     position: relative;
-    top: 14px;
-    padding-right: 50px;
+    top: 15px;
+    padding-right: 35px;
 }
 
 .topbar-section
@@ -216,16 +219,19 @@ h3 a:hover {
 
 .clock {
 
-    height: 19px;
+    height: 25px;
     position: relative;
-    top: 2px;
+    top: 5px;
 }
 
 .topic-link {
-    text-decoration: none;
-    color: #a91717;
-    border-left: 1px solid #cccccc;
-    padding-left: -15px;   
+    color: #5a5a5a;
+    margin-top: -19px;
+    margin-left: 145px;
+    margin-right: 17px;
+    width: 260px;
+    float: left;
+    font-size: 15px;  
      }
 #article-summary a:hover {
     color: #1167a8;
@@ -253,8 +259,11 @@ margin-left: 20px;
 
 #article-hr {
 
+margin-left: 0px;
 border-top: 1px solid #a91717;
 width: 50px;
+border: none;
+
 }
 
 .article-link {
@@ -263,11 +272,84 @@ color: black;
 text-decoration: none;
 }
 
-#watch-listen {
+.article-link {
 
+    color: black;
+    text-decoration: none;
+}
+
+
+#technologyWorld {
+    margin-left: 10px;
+    width: 700px;
+    float: left;
+}
+#techHeader a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+#techHeader a:hover {
+    color: #1167A8;
+}
+.techWorldDiv {
+    background: #EDEDED;
+    width: 205px;
+    float: left;
+    margin-right: 10px;
+}
+.techWorldDivE {
+    background: #EDEDED;
+    width: 205px;
+    float: left;
+}
+.techWorldDivImg img {
+    width: 205px;
+}
+.techWorldDivTitle a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0px 5px 10px 10px;
+    float: left;
+}
+.techWorldDivTitle a:hover {
+    color: #1167ab;
+}
+.clock {
+
+    height: 25px;
+    position: relative;
+    top: 5px;
+}
+.techWorldDivDate {
+    text-decoration: none;
+    font-size: 15px;
+    color: #5a5a5a;
+    float: left;
+    margin: 2px 0px 0px 5px;
+}
+.techWorldDivCat {
+    color: #dcdcdc;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.techWorldDivCat a {
+    text-decoration: none;
+    color: #A91717;
+    font-size: 15px;
+}
+.techWorldDivCat a:hover {
+    color: #1167A8;
+}
+
+
+#watch-listen {
 margin-left: 20px;
 width: 280px;
 float: right;
+margin-top: -30px;
 }
 
 h4 {
@@ -277,7 +359,7 @@ font-size: 20px;
 
 .article-side-image {
 float: left;
-width: 190px;
+width: 210px;
 margin-right: -10px;
 }
 .watch-listen-link {
@@ -302,8 +384,8 @@ top: 5px;
 border-left: none;
 padding: 0;
 }
-.border-right {
 
+.border-right {
 border-right: 1px solid #cccccc;
 }
 
@@ -315,9 +397,9 @@ float: left;
 
 .clock-a {
 
-height: 19px;
-position: relative;
-top: 2px;
+    height: 25px;
+    position: relative;
+    top: 5px;
 }
 
 .topic-link {
@@ -344,7 +426,16 @@ border-right: 1px solid #cccccc;
 padding-right: 20px;
 }
 
-
+#also {
+    margin-left: 10px;
+    width: 700px;
+    float: left;
+    margin-top: -10px;
+    margin-bottom: -50px;
+}
+#alsoTitle {
+    font-size: 25px;
+}
 
 #main-article-image-a{
 
@@ -363,3 +454,158 @@ width: 50px;
 color: black;
 text-decoration: none;
 }
+
+#shareWithBBC {
+    margin-left: -9px;
+    float: left;
+}
+#shareWithBBC h3 {
+    margin-left: 0px;
+}
+#shareWithBBC a {
+    text-decoration: none;
+    color: black;
+}
+#shareWithBBC a:hover {
+    color: #1167A8;
+}
+#shareWithBBC img {
+    float: left;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.shareWithBBCBold {
+    font-weight: bold;
+}
+
+
+#followUs {
+    float: left;
+    margin-left: -3px;
+    width: 500px;
+}
+#followUsPara {
+    color: black;
+    font-size: 20px;
+}
+#daily {
+   float: left;
+   width: 190px;
+   height: 20px;
+   background: #f7f7f7;
+   margin-right: 9px;
+   margin-bottom: 20px;
+   padding: 12px;
+   border-bottom: 4px solid #3C5A98;
+}
+.ftLink a {
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+    left: 37px;
+    color: black;
+}
+.ftLink a:hover {
+    color: #1167ab;
+}
+#app {
+    float: left;
+    width: 190px;
+    height: 20px;
+    background: #f7f7f7;
+    margin-left: -220px;
+    margin-top: 70px;
+    padding: 12px;
+    border-bottom: 4px solid #47C7FA;
+}
+#rss {
+    float: left;
+    width: 195px;
+    height: 20px;
+    background: #f7f7f7;
+    padding: 10px;
+    margin-top: 140px;
+    margin-left: -220px;
+    border-bottom: 4px solid black;
+}
+#rss a {
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+    left: 29px;
+    color: black;
+}
+#rss a:hover {
+    color: #1167ab;
+}
+
+
+#explore {
+    width: 1000px;
+    background-color: #4C4C4C;
+    float: right;
+    margin-left: -10px;
+    border-top: 1px solid #949494;
+    margin-bottom: 0px;
+    margin-top: 130px;
+    
+}
+.explore2 {
+    margin: 10px 0px 10px 145px;
+}
+#exploreHeading {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.explore3 {
+    margin: 10px 0px 10px 145px;
+    float: left;
+}
+.explore3 a {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 30px;
+}
+.explore3 a:hover {
+    text-decoration: underline;
+}
+.explore4 {
+    border-left: 1px solid #949494;
+    margin-left: 70px;
+    
+}
+.explore4 a {
+    margin-left: 20px;
+}
+#xHr {
+    width: 700px;
+    height: 1px;
+    border: 0px;
+    float: left;
+    margin-left: 145px;
+    background-color: #949494;
+}
+#fotter {
+    float: left;
+    margin-left: 145px;
+    margin-top: 0px;
+}
+#fotter p a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 22px;
+}
+#fotter p {
+    color: white;
+    font-size: 14px;
+}
+#fotter p a:hover {
+    text-decoration: underline;
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
